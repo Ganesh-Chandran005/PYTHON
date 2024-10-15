@@ -6,7 +6,7 @@ btotal=0
 gtotal=0
 tbh=0
 tgh=0
-for i in range(0,n):
+for i in range(0,n+1):
     gender=input("enter your gender M/F")
     height=float(input("enter your height"))
     if gender=="M" or gender=="m":
